@@ -1,14 +1,25 @@
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            .grid {
+              border: solid black 2px;
+              height: 60px;
+              width: 60px;
+            }
+            .row{
+                display: flex;
+                flex-direction: row;
+            }
+          </style>
     </head>
     
     <body>
-
-        <div class="container">
-            
+        <div id="Master">
+            <button id="btn">Set Grid Size</button>
+            <button id="rainbow_btn">Eraser</button>
         </div>
-
+        <div class="container"></div>
         <script src="index.js"></script>
     </body>
 </html>

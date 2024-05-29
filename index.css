@@ -1,4 +1,27 @@
-.container {
-    display: flexbox
+#Master{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
 
+#btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+#rainbow_btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+}
+
+.Container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 960px; /* Ensure container width is set */
+    height: 960px; /* Ensure container height is set */
 }
