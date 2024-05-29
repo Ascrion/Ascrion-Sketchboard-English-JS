@@ -1,1 +1,1 @@
-# Sketchboard
+Sketchboard as the name suggests is a Microsoft Paint style sketchboard
